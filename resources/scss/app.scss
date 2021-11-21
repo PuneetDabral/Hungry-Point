@@ -1,73 +1,63 @@
 @import './variables';
 
-body{
-    font-family: 'lato',sans-serif;
+body {
+    font-family: 'Lato', sans-serif;
+    -webkit-font-smoothing: antialiased;
     color: $dark;
-   
 }
 
-nav li:last-child a{
+nav li:last-child a {
     background: $primary;
-    &:hover{
-        background:$primary-hover;
-      }
-}
-
-nav li a{
-    transition: $smooth;
-    &:hover{
-      color:$primary;
+    &:hover {
+        background: $primary-hover;
     }
 }
 
-section.hero{
+nav li a {
+    transition: $smooth;
+    &:hover {
+        color: $primary;
+    }
+}
+section.hero {
     background: $secondary;
 }
-
-.size{
+.size {
     background: $secondary;
 }
-
-.add-to-cart{
+.add-to-cart {
     border: 2px solid $primary;
     color: $primary;
     transition: $smooth;
-    &:hover{
+    &:hover {
         background: $primary;
         border-color: $pure;
         color: $pure;
     }
 }
 
-.btn-primary{
+.btn-primary {
     background: $primary;
-
-    &:hover{
+    transition: $smooth;
+    &:hover {
         background: $primary-hover;
-        transition: $smooth;
     }
 }
 
-
-section.cart{
+section.cart {
     background: $secondary;
-    .amount{
+    .amount {
         color: $primary;
     }
 }
 
 section.login {
-background: $secondary;
-min-height: calc(100vh - 86px);
-
-a{
-    color: $primary;
-    &:hover{
-        color: $primary-hover;
+    background: $secondary;
+    min-height: calc(100vh - 86px);
+    a {
+        color: $primary;
+        &:hover {
+            color: $primary-hover;
+        }
     }
 }
-
-}
-
-
-

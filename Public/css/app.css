@@ -1,5 +1,6 @@
 body {
-  font-family: "lato", sans-serif;
+  font-family: "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
   color: #232323;
 }
 
@@ -20,11 +21,11 @@ nav li a:hover {
 }
 
 section.hero {
-  background: #f8f8f8;
+  background: #F8F8F8;
 }
 
 .size {
-  background: #f8f8f8;
+  background: #F8F8F8;
 }
 
 .add-to-cart {
@@ -41,15 +42,15 @@ section.hero {
 
 .btn-primary {
   background: #FE5F1E;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn-primary:hover {
   background: #b23301;
-  transition: all 0.3s ease-in-out;
 }
 
 section.cart {
-  background: #f8f8f8;
+  background: #F8F8F8;
 }
 
 section.cart .amount {
@@ -57,7 +58,7 @@ section.cart .amount {
 }
 
 section.login {
-  background: #f8f8f8;
+  background: #F8F8F8;
   min-height: calc(100vh - 86px);
 }
 
